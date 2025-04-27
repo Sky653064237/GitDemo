@@ -33,4 +33,5 @@
 
 
 添加别名并绑定网址--------------发送：remote add 别名 网址【例如：git remote add origin https://github.com/Sky653064237/GitDemo.git】
-将代码推送云端仓库--------------发送：push 别名 分支名【例如：git push origin main】
+推送分支代码至云端--------------发送：push 别名 分支名【例如：git push origin main】
+克隆所有代码至本地--------------发送：clone 网址【例如：git clone https://github.com/Sky653064237/GitDemo.git】
