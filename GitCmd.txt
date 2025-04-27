@@ -1,4 +1,4 @@
-注意：Git软件的所有命令都需要添加前缀：git
+注意：Git软件的所有命令大小写敏感，且都需要添加前缀：git
 
 配置全局个人信息：用户名和邮箱【仅需设置1次】
 
@@ -26,6 +26,11 @@
 
 创建全新的分支仓库--------------发送：branch 分支仓库名【例如：git branch bug】（创建bug分支）
 删除创建的分支仓库--------------发送：branch -d 分支仓库名【例如：git branch -d bug】（删除bug分支）
+重命名当前分支名称--------------发送：branch -m 分支仓库名【例如：git branch -m main】
 
-跳转到别的分支仓库--------------发送：checkout 分支仓库名【例如：git checkout  master】（跳转回到主分支）
-将某分支合并到当前--------------发送：merge 分支仓库名【例如：git merge bug】（如果当前为主分支master，表示把bug分支合并到master）
+跳转到别的分支仓库--------------发送：checkout 分支仓库名【例如：git checkout  main】（跳转回到主分支）
+将某分支合并到当前--------------发送：merge 分支仓库名【例如：git merge bug】（如果当前为主分支main，表示把bug分支合并到main）
+
+
+添加别名并绑定网址--------------发送：remote add 别名 网址【例如：git remote add origin https://github.com/Sky653064237/GitDemo.git】
+将代码推送云端仓库--------------发送：push 别名 分支名【例如：git push origin main】
